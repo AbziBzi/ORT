@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Orienteering.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Orienteering.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Orienteering.Domain.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Orienteering.Domain/1.0.0": {
-      "type": "project",
-      "path": "../Orienteering.Domain/Orienteering.Domain.csproj",
-      "msbuildProject": "../Orienteering.Domain/Orienteering.Domain.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Orienteering.Domain >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\Mantas\\.nuget\\packages\\": {},
@@ -34,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Infrastructure\\Orienteering.Infrastructure.csproj",
-      "projectName": "Orienteering.Infrastructure",
-      "projectPath": "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Infrastructure\\Orienteering.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Domain\\Orienteering.Domain.csproj",
+      "projectName": "Orienteering.Domain",
+      "projectPath": "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Domain\\Orienteering.Domain.csproj",
       "packagesPath": "C:\\Users\\Mantas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -59,11 +40,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Domain\\Orienteering.Domain.csproj": {
-              "projectPath": "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Domain\\Orienteering.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

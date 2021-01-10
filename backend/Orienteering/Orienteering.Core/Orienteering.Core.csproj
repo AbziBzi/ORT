@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Orienteering.Domain\Orienteering.Domain.csproj" />
+    <ProjectReference Include="..\Orienteering.Infrastructure\Orienteering.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

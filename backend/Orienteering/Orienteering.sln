@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orienteering.Web", "Orienteering\Orienteering.Web.csproj", "{017E50B7-87FA-4A59-B456-C28246972CE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orienteering.Web", "Orienteering\Orienteering.Web.csproj", "{017E50B7-87FA-4A59-B456-C28246972CE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orienteering.Core", "Orienteering.Core\Orienteering.Core.csproj", "{6EDACCD6-8305-46F7-BD44-525C9D0F80E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orienteering.Core", "Orienteering.Core\Orienteering.Core.csproj", "{6EDACCD6-8305-46F7-BD44-525C9D0F80E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orienteering.Infrastructure", "Orienteering.Infrastructure\Orienteering.Infrastructure.csproj", "{BB673D91-3B9B-4B3B-BAAD-7379633E33B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orienteering.Infrastructure", "Orienteering.Infrastructure\Orienteering.Infrastructure.csproj", "{BB673D91-3B9B-4B3B-BAAD-7379633E33B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orienteering.Domain", "Orienteering.Domain\Orienteering.Domain.csproj", "{57CC5E54-FC31-41D8-B1BD-AC4676C4AC40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BB673D91-3B9B-4B3B-BAAD-7379633E33B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB673D91-3B9B-4B3B-BAAD-7379633E33B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB673D91-3B9B-4B3B-BAAD-7379633E33B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CC5E54-FC31-41D8-B1BD-AC4676C4AC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CC5E54-FC31-41D8-B1BD-AC4676C4AC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CC5E54-FC31-41D8-B1BD-AC4676C4AC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CC5E54-FC31-41D8-B1BD-AC4676C4AC40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

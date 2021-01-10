@@ -1,48 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Orienteering.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Orienteering.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Orienteering.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Orienteering.Core.dll": {}
-        }
-      },
-      "Orienteering.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Orienteering.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Orienteering.Infrastructure.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Orienteering.Core/1.0.0": {
-      "type": "project",
-      "path": "../Orienteering.Core/Orienteering.Core.csproj",
-      "msbuildProject": "../Orienteering.Core/Orienteering.Core.csproj"
-    },
-    "Orienteering.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Orienteering.Infrastructure/Orienteering.Infrastructure.csproj",
-      "msbuildProject": "../Orienteering.Infrastructure/Orienteering.Infrastructure.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Orienteering.Core >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\Mantas\\.nuget\\packages\\": {},
@@ -77,11 +40,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Core\\Orienteering.Core.csproj": {
-              "projectPath": "C:\\Users\\Mantas\\source\\repos\\ORT\\backend\\Orienteering\\Orienteering.Core\\Orienteering.Core.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

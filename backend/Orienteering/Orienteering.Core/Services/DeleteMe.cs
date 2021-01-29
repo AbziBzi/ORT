@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Orienteering.Infrastructure.Persistence.Migrations
+namespace Orienteering.Core.Services
 {
     class DeleteMe
     {

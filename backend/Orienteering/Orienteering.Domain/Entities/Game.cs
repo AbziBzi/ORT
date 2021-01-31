@@ -20,6 +20,7 @@ namespace Orienteering.Domain.Entities
         public DateTime UpdateDate { get; set; }
 
         public Guid CreatorId { get; set; }
+        public Guid TrackId { get; set; }
         public virtual User Creator { get; set; }
         public virtual Track Track { get; set; }
         public virtual ICollection<User> Participants { get; private set; }
